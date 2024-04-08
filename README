@@ -1,0 +1,4 @@
+1. Build Docker image: docker build -t landowolf/webdriverio-js-appium:latest .
+2. To run Docker image: docker run -e WDIO_CONFIG_FILE="android.browserstack.conf.js" landowolf/webdriverio-js-appium:latest
+3. To enter Docker image terminal and execute tests: docker run -it landowolf/webdriverio-js-appium:latest /bin/sh, 
+then: npx wdio run ./android.browserstack.conf.js
