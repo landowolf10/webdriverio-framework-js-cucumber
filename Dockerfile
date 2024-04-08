@@ -14,7 +14,7 @@ RUN npm install
 COPY src ./src
 
 # Copy the WebDriverIO configuration file
-COPY android.browserstack.conf.js .
+COPY docker.android.browserstack.conf.js .
 
 # Environment variable for specifying the WebDriverIO configuration file
 ENV WDIO_CONFIG_FILE=""
